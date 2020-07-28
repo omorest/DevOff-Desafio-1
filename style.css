@@ -1,8 +1,8 @@
 body {
+  font-family: 'Open Sans', sans-serif;
   margin: 0px;
   padding: 0px;
 }
-
 
 .container {
   margin-bottom: 50px;
@@ -13,18 +13,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 
 h2 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Caveat', cursive;
   background-color: rgb(44, 44, 44);
   width: 100%;
   height: 80px;
   color:white;
-  font-size: 25px;
+  font-size: 45px;
   letter-spacing: 1px;
-  font-weight: 300;
+  font-weight: 500;
 
   display: flex;
   justify-content: center;
@@ -40,17 +41,14 @@ h2 {
   font-size: 10px;
 }
 
-
 .imagen {
   display: flex;
   align-self: flex-end;
   margin: 20px 5px 0px 0px ;
   margin-top: 20px;
-
 }
 
-
-img {
+.imagen img {
   margin: auto;
   width: 250px;
   margin-right: 0;
@@ -58,7 +56,7 @@ img {
   padding: 0px;
 }
 
-img:hover {
+.imagen img:hover {
   transform: scale(1.05);
   transition: all 0.3s ease;
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -66,11 +64,30 @@ img:hover {
   
 }
 
-img:active {
+.imagen img:active {
   transform: scale(2);
   transition: all 0.4s ease;
   box-shadow: 0px 0px 20px rgb(100, 100, 100); 
   filter: none; 
 }
 
+.information {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.icons {  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 40px;
+  color: rgb(51, 51, 51);
+}
